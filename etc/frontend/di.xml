@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Product\ProductList\Toolbar">
+        <plugin name="FabrizioBalliano_CategorySortDirection_Plugin_Frontend_Magento_Catalog_Model_Product_ProductList_Toolbar" type="FabrizioBalliano\CategorySortDirection\Plugin\Frontend\Magento\Catalog\Model\Product\ProductList\Toolbar" sortOrder="10" disabled="false"/>
+    </type>
+</config>

@@ -1,0 +1,21 @@
+{
+    "name": "fballiano/magento2-category-sort-direction",
+    "description": "Magento2 module that allows you to decide the product sorting direction on category pages.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Fabrizio Balliano",
+            "email": "fabrizio@fabrizioballiano.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FabrizioBalliano\\CategorySortDirection\\": ""
+        }
+    }
+}
